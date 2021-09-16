@@ -1,0 +1,118 @@
+
+:-webkit-full-screen{
+    width: 100%;
+    height: 100%;
+}
+
+:-moz-full-screen{
+    background-color: white;
+}
+
+section {
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+}
+section > h1 {
+    text-align: center;
+    font-weight: bolder;
+    width: 86%;
+    display: inline-block;
+}
+
+section > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li > input:checked + span{
+    color: crimson;
+    text-decoration: line-through;
+}
+
+section > ul > li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 10px 2px;
+    border: black 1px inset;
+    background-color: #c6d3ff;
+}
+
+li > span{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+li  >   a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 0 5px;
+}
+li  >   a:hover{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+}
+
+
+li > span:hover{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.icon{
+    display: block;
+    color: coral;
+    background-color: burlywood;
+}
+
+
+#name {
+    font-size: 20px;
+    width: 75%;
+    height: 40px;
+    padding: 5px 30px;
+    box-sizing: content-box;
+}
+.add{
+    background-color: white;
+    font-size: 20px;
+    height: 54px;
+    border: black 1px inset;
+    cursor: pointer;
+    float: right;
+}
+.add:hover{
+    
+    background-color: blanchedalmond;
+}
+.full {
+    MARGIN-TOP: 10px;
+    float: right;
+    font-size: 25px;
+    padding: 12;
+    background: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    /* vertical-align: -20px; */
+    margin-left: 10px;
+    color: black;
+}
+.full:hover{
+    color: blanchedalmond;
+}
+
+.boxlist{
+    width: 550px;
+    margin: 60px auto;
+    min-height: 700px;
+    border: black 1px inset;
+}
+
+
+
+
+
